@@ -1,0 +1,21 @@
+{
+  "name": "test-sitespeed-bug",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "start:dev": "nodemon $NODE_DEBUG_OPTION ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "node-schedule": "^1.2.5",
+    "nodemon": "^1.12.5",
+    "serve-favicon": "~2.4.5",
+    "sitespeed.io": "^6.0.3"
+  }
+}
